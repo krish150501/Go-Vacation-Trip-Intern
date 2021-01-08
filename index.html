@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Html Generated</title>
+    <meta name="description" content="Figma htmlGenerator">
+    <meta name="author" content="htmlGenerator">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="./images/elogo_1.png"></img>
+        </div>
+
+        <div class="navigation">
+
+            <a href="#" class="links">Home</a>
+            <a href="#" class="links">About</a>
+            <a href="#" class="packages">Package v</a>
+            <a href="#" class="links">Contacts</a>
+
+        </div>
+        <div class="cont">
+            <div class="calllogo"><img src='./images/econt_1.png'></div>
+            <h6 class="callnumber">(855)290 270</h6>
+        </div>
+
+    </div>
+    <div class="dropdown-content">
+        <a href="#">Dubai</a>
+        <a href="#">Bali</a>
+        <a href="#">Thailand</a>
+        <a href="#">Singapore</a>
+        <a href="#">Malaysia</a>
+        <a href="#">Turkey</a>
+    </div>
+    <div class="hero">
+        <div class="form">
+            <h6 class="formheader">FIND YOUR FLIGHTS</h6>
+            <div class="line1"></div>
+            <form class="radio">
+                <input type="radio" name='data' value="one-trip"><label for='one-trip'>One trip</label>
+                <input type="radio" name='data' value="round-trip"><label for="round-trip">Round Trip</label>
+            </form>
+            <form class="forms" action="">
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for="location1"><i class='fa fa-map-marker' style='font-size:20px'></i></label><input class="inp" for='location1' type='text' placeholder="From">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-map-marker' style='font-size:20px'></i></label><input class="inp" type='text' placeholder="To">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-calendar' style='font-size:20px'></i></label><input class="calender" type='text' placeholder="Depart Date">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <script>
+                    $(function() {
+                        $(".calender").datepicker();
+                    });
+                </script>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-user' style='font-size:20px'></i></label><input class="person" type='text' placeholder="Passenger">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="dropdown-content1">
+                    <h5>select</h5>
+                    <div class='btns'>
+                        <button class="adbtn">-</button>
+                        <span class="adult">Adult</span>
+                        <button class="adpbtn">+</button>
+                    </div>
+                    <div class='btns'>
+                        <button class="chmbtn">-</button>
+                        <span class="children">Childs</span>
+                        <button class="chpbtn">+</button>
+                    </div>
+                    <div class='btns'>
+                        <button class="inmbtn">-</button>
+                        <span class="infant">Infant</span>
+                        <button class="inpbtn">+</button>
+                    </div>
+                    <button class='persubmit' type='submit'>submit</button>
+
+                </div>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-user' style='font-size:20px'></i></label><input class="inp" type='text' placeholder="Name">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-phone' style='font-size:20px'></i></label><input class="inp" type='text' placeholder="Phone">
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="block">
+                    <div class='label' style="display: flex">
+                        <label style="margin:0px 10px 10px 10px;" for=""><i class='fa fa-envelope' style='font-size:20px'></i></label><input class="inp" type='text' placeholder="E-mail">
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <div class='btn'>
+                    <button class="enquirenow" type="submit">Enquire Now</button>
+                </div>
+            </form>
+        </div>
+        <div class="hero-intro">
+            <h1 class="offer">CHRISTMAS OFFER!</h1>
+            <h6 class="suboffer">GET UPTO 20% OFF ON YOUR FLIGHT BOOKING.</h6>
+            <h5 class="calloffer">Call Our Expert Directly</h5>
+            <button class="offercall">(855)290 270</button>
+            <div class="companies">
+                <div class="trust"><img src="./images/egp_1.png" alt=""></div>
+                <div class="google"><img src="./images/egoogle_1.png" alt=""></div>
+                <div class="acc"><img src="./images/eacc_1.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
