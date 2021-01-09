@@ -30,34 +30,41 @@ var inf = document.querySelector('.infant')
 var adult = 0,
     children = 0,
     infant = 0;
-admbtn.addEventListener('click', () => {
+admbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     if (adult != 0)
         adult--
         ad.innerHTML = `Adult ${adult}`
 })
-adpbtn.addEventListener('click', () => {
+adpbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     adult++
     ad.innerHTML = `Adult ${adult}`
 })
-chmbtn.addEventListener('click', () => {
+chmbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     if (children != 0)
         children--
         ch.innerHTML = `Childs ${children}`
 })
-chpbtn.addEventListener('click', () => {
+chpbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     children++
     ch.innerHTML = `Childs ${children}`
 })
-inmbtn.addEventListener('click', () => {
+inmbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     if (infant != 0)
         infant--
         inf.innerHTML = `Infants ${infant}`
 })
-inpbtn.addEventListener('click', () => {
+inpbtn.addEventListener('click', (e) => {
+    e.preventDefault()
     infant++
     inf.innerHTML = `infants ${infant}`
 })
-submit.addEventListener('click', () => {
+submit.addEventListener('click', (e) => {
+    e.preventDefault()
     dropdown1.style.display = 'none'
     person.value = `total ${adult}/${children}/${infant}`
 })
